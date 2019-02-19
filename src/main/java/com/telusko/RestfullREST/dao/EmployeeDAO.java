@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+ 
 
 import com.telusko.RestfullREST.model.Employee;
 public class EmployeeDAO {
@@ -22,12 +23,13 @@ public class EmployeeDAO {
 		Employee employee1 = new Employee("E01", "pramod", "manager");
 		Employee employee2 = new Employee("E02", "nandini", "Salesman");
 		Employee employee3 = new Employee("E03", "babay", "clerk");
+		Employee employee4 = new Employee("E04", "nisha", "home");
 		
 		empMap.put(employee1.getEmpno(), employee1);
 		empMap.put(employee2.getEmpno(), employee2);
 		empMap.put(employee3.getEmpno(), employee3);
 		
-		 
+		empMap.put(employee4.getEmpno(), employee4);
 		
 		
 		
