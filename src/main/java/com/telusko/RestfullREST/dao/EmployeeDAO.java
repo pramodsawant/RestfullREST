@@ -25,6 +25,7 @@ public class EmployeeDAO {
 		Employee employee3 = new Employee("E03", "babay", "clerk");
 		Employee employee4 = new Employee("E04", "nisha", "home");
 		Employee employee5 = new Employee("E05", "atul", "nashik");
+		Employee employee6 = new Employee("E05", "asha", "old nsk");
 		empMap.put(employee1.getEmpno(), employee1);
 		empMap.put(employee2.getEmpno(), employee2);
 		empMap.put(employee3.getEmpno(), employee3);
@@ -32,6 +33,7 @@ public class EmployeeDAO {
 		empMap.put(employee4.getEmpno(), employee4);
 		
 		empMap.put(employee5.getEmpno(), employee5);
+		empMap.put(employee6.getEmpno(), employee6);
 		
 	}
 	
