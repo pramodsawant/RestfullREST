@@ -14,7 +14,7 @@ public class Employee {
 		super();
 	}
 	
-	//constractor comment
+	 
 	public Employee(String empno, String empname, String position) {
 		super();
 		this.empno = empno;
