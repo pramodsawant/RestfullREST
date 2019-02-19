@@ -24,14 +24,14 @@ public class EmployeeDAO {
 		Employee employee2 = new Employee("E02", "nandini", "Salesman");
 		Employee employee3 = new Employee("E03", "babay", "clerk");
 		Employee employee4 = new Employee("E04", "nisha", "home");
-		
+		Employee employee5 = new Employee("E05", "atul", "nashik");
 		empMap.put(employee1.getEmpno(), employee1);
 		empMap.put(employee2.getEmpno(), employee2);
 		empMap.put(employee3.getEmpno(), employee3);
 		
 		empMap.put(employee4.getEmpno(), employee4);
 		
-		
+		empMap.put(employee5.getEmpno(), employee5);
 		
 	}
 	
