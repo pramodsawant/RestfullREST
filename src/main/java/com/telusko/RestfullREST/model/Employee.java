@@ -1,5 +1,5 @@
 package com.telusko.RestfullREST.model;
-//added pramod sawant
+//added pramod sawant after import project form local reposotry 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
