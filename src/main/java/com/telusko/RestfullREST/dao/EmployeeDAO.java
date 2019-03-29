@@ -30,6 +30,9 @@ public class EmployeeDAO {
 		Employee employee8 = new Employee("E08", "aasha", "nashik");
 		Employee employee9 = new Employee("E09", "aasha", "nashik");
 		Employee employee10 = new Employee("E10", "newbaye", "dombivali");
+		Employee employee11 = new Employee("E11", "newbaye11", "11dombivali");
+		Employee employee111 = new Employee("E111", "newbaye111", "111dombivali");
+		Employee employee12 = new Employee("E12", "newbaye12", "12dombivali");
 		
 		empMap.put(employee1.getEmpno(), employee1);
 		empMap.put(employee2.getEmpno(), employee2);
@@ -43,6 +46,10 @@ public class EmployeeDAO {
 		empMap.put(employee8.getEmpno(), employee8);
 		empMap.put(employee9.getEmpno(), employee9);
 		empMap.put(employee10.getEmpno(), employee10);
+		empMap.put(employee11.getEmpno(), employee11);
+		empMap.put(employee111.getEmpno(), employee111);
+		
+		empMap.put(employee12.getEmpno(), employee12);
 	}
 	
 	public static Employee getemp(String empno)
